@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "init.rb",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
