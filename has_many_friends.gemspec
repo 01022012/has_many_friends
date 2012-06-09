@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dexter Ogie-osahon"]
   s.date = "2012-06-09"
-  s.description = "TODO: cxn model"
+  s.description = "cxn model"
   s.email = "dexter.ogie-osahon@live.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
-  s.summary = "TODO: friendship"
+  s.summary = "friendship"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
