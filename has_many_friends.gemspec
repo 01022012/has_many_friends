@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "has_many_friends"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dexter Ogie-osahon"]
@@ -19,11 +19,13 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
-    "init.rb",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "has_many_friends.gemspec",
+    "init.rb",
     "lib/has_many_friends.rb",
     "test/helper.rb",
     "test/test_has_many_friends.rb"
