@@ -1,6 +1,5 @@
 require 'active_model'
 module HasManyFriends
-
   module UserExtensions
 
     def self.included( recipient )

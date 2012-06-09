@@ -11,7 +11,7 @@ module HasManyFriends
     module ClassMethods
       ##
       def has_many_friends(opts = nil)
-        include HasManyFriends::HasManyFriends
+        include HasManyFriends::UserExtensions::InstanceMethods
       end
     end
   end
