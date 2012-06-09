@@ -17,13 +17,14 @@ Jeweler::Tasks.new do |gem|
   gem.name = "has_many_friends"
   gem.homepage = "http://github.com/dexterogieosahon/has_many_friends"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{TODO: friendship}
+  gem.description = %Q{TODO: cxn model}
   gem.email = "dexter.ogie-osahon@live.com"
   gem.authors = ["Dexter Ogie-osahon"]
   # dependencies defined in Gemfile
+  gem.add_dependency 'activemodel', '>= 3.0'
 end
-Jeweler::RubygemsDotOrgTasks.new
+#Jeweler::RubygemsDotOrgTasks.new
 
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
@@ -32,13 +33,13 @@ Rake::TestTask.new(:test) do |test|
   test.verbose = true
 end
 
-require 'rcov/rcovtask'
-Rcov::RcovTask.new do |test|
-  test.libs << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-  test.rcov_opts << '--exclude "gems/*"'
-end
+#require 'rcov/rcovtask'
+#Rcov::RcovTask.new do |test|
+#  test.libs << 'test'
+#  test.pattern = 'test/**/test_*.rb'
+#  test.verbose = true
+#  test.rcov_opts << '--exclude "gems/*"'
+#end
 
 task :default => :test
 
